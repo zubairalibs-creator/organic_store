@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Green Bloom Grocery</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+  <!-- Bootstrap 5 (Latest Stable) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+  <div class="new">
+    <a class="navbar-brand" href="index.html">
+      <span class="text-green">Green</span><span class="div_deeg">Bloom</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="deals.html">Deals</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+
+      <form class="d-flex ms-3" role="search" style="margin-right: 30px;">
+        <div class="search-wrapper">
+          <input type="search" class="form-control" placeholder="Search"/>
+          <i class="bi bi-search"></i>
+        </div>
+      </form>
+    </div>
+
+    <!-- Cart and Account Icons -->
+    <div class="nav-icons">
+      <a href="#" aria-label="Cart" class="text-dark"><i class="bi bi-cart"></i></a>
+      <a href="#" aria-label="Account" class="text-dark"><i class="bi bi-person"></i></a>
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Offcanvas Mobile Menu (opens from left) -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <form class="d-flex mb-3" role="search">
+      <div class="search-wrapper w-100">
+        <input type="search" class="form-control" placeholder="Search"/>
+        <i class="bi bi-search"></i>
+      </div>
+    </form>
+
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+      <li class="nav-item"><a class="nav-link" href="deals.html">Deals</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Bootstrap JS Bundle (includes Popper) -->
+
+
+
+
+
+<!-- Banner Section -->
+<div class="banner-section">
+  <h1>Fresh Groceries Delivered <br>to Your Doorstep</h1>
+  <p>Shop from our wide selection of fresh, organic produce, dairy, meats, and more. Enjoy same-day delivery and premium quality.</p>
+  <div class="button-wrapper">
+    <a href="#" class="btn-custom">Shop Now <i class="bi bi-arrow-right"></i></a>
+    <a href="#" class="btn-transparent">View Deals</a>
+  </div>
+</div>
+
+<!-- Shop Section -->
+<div class="shop">
+  <h1>Shop by Category</h1>
+  <p>Browse our wide selection of fresh, high-quality products across various categories.</p>
+</div>
+
+
+<div class="main">
+  <div class="div_deg">
+    <a href="vegetables.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Fruits & Vegetables</h4>
+          <p>Fresh product from local farms</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="div_deg">
+    <a href="dairy.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Dairy & Eggs</h4>
+          <p>Fresh milk, cheese yogurt and eggs</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="div_deg">
+    <a href="seafood.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Meat & Seafood</h4>
+          <p>Premium cuts and fresh catches</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="main">
+  <div class="div_deg">
+    <a href="bakery.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Bakery</h4>
+          <p>Freshly baked bread and pastries</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="div_deg">
+    <a href="beverages.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Beverages</h4>
+          <p>Refreshing drinks and juices</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="div_deg">
+    <a href="snacks.html">
+      <div class="img-container">
+        <img src="./contraction/images/banner.jpg" alt="Fruits & Vegetables" />
+        <div class="text-content">
+          <h4>Snacks</h4>
+          <p>Delicious treats for any time</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="featured-section">
+  <h1>Featured Products</h1>
+  <p>Browse our wide selection of fresh, high-quality products across various categories.</p>
+</div>
+
+<div class="product-container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/vg.jpeg" alt="Tasty Burger" />
+      
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/vg.jpeg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 3 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+       
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 4 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="product-container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+      
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 3 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+       
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 4 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  <div class="promo-wrapper">
+    <div class="promo-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text Column -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <h1 class="mb-3">Free Delivery on Your First Order</h1>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod recusandae perferendis accusantium maiores incidunt ipsam, natus modi libero totam eligendi velit laudantium magnam temporibus et in, ipsa, iste nisi. Iusto.
+            </p>
+            <button class="btn btn-custom">FIRSTORDER</button>
+          </div>
+
+          <!-- Image Column -->
+          <div class="col-12 col-md-6 text-center">
+            <img src="./contraction/images/order.jpg" alt="Order Delivery" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="popular-products">
+  <h1>Popular Products</h1>
+  <p>Our best-selling products that customers keep coming back for.</p>
+</div>
+
+
+<div class="product-container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+      
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+       
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 3 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+       
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 4 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        
+         
+       
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="product-container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+      
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 3 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+       
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product 4 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="special-offers">
+  <h1>Special Offers</h1>
+  <p>Limited-time deals on your favorite products. Don't miss out!</p>
+</div>
+
+
+<div class="product-container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+       <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Product 3 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+        <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        
+        </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product">
+    <div class="product-card">
+      <div class="product-image-wrapper">
+        <img src="./contraction/images/banner.jpg" alt="Tasty Burger" />
+
+          <div class="price-badge-left">
+          <button class="div_btn">10% OFF</button>
+        </div>
+        <div class="price-badge-right">
+          <button>Organic</button>
+        </div>
+        
+      </div>
+      <div class="product-details">
+        <div class="product-title-row">
+          <h2>Avocados</h2>
+          <i class="bi bi-heart"></i>
+        </div>
+        <div class="rating-row">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <p>(4.7)</p>
+        </div>
+        <p class="unit">bunch</p>
+        <div class="price-row">
+          <h4>$2856.3</h4>
+          <p>$3225.6</p>
+        </div>
+        <div class="add-cart-btn">
+          <button type="button"><i class="bi bi-cart-fill"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="customer-testimonials">
+  <h1>What Our Customers Say</h1>
+  <p>Don't just take our word for it. Here's what our satisfied customers have to say.</p>
+</div>
+
+  <div class="Customer">
+    <div class="custom-1">
+      <div class="d-flex">
+        <img src="https://i.pravatar.cc/80?img=15" alt="John Dee" />
+        <div>
+          <h4>John Dee</h4>
+          <p class="text-muted mb-0">Regular Customer</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>
+      </div>
+
+      <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magnam eligendi minus, incidunt fugit, amet nisi, quam vitae sed voluptatibus blanditiis repellat. Itaque sunt voluptatem facere sequi quod at sed?</p>
+    </div>
+
+    <div class="custom-1">
+      <div class="d-flex">
+        <img src="https://i.pravatar.cc/80?img=20" alt="Jane Doe" />
+        <div>
+          <h4>Jane Doe</h4>
+          <p class="text-muted mb-0">Frequent Buyer</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+      </div>
+
+      <p class="mt-3">Quisquam, fuga? Quo laudantium molestiae nihil cupiditate, doloribus deserunt! Exercitationem cumque consequuntur aliquid architecto, error eveniet laudantium.</p>
+    </div>
+
+    <div class="custom-1">
+      <div class="d-flex">
+        <img src="https://i.pravatar.cc/80?img=5" alt="Michael Smith" />
+        <div>
+          <h4>Michael Smith</h4>
+          <p class="text-muted mb-0">New Customer</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>
+        <i class="bi bi-star"></i>
+      </div>
+
+      <p class="mt-3">Sapiente, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, cupiditate maxime molestias omnis laborum!</p>
+    </div>
+  </div>
+
+<!-- Footer Main -->
+<div class="footer bg-white text-dark py-4">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <!-- About Section -->
+      <div class="col-12 col-md-3 mb-4">
+        <h3>Green Bloom Grocery</h3>
+        <p>Your one-stop shop for fresh, organic groceries delivered right to your doorstep.</p>
+
+        <!-- Social Icons -->
+        <div class="social-links mt-3 d-flex">
+          <a href="https://facebook.com" target="_blank" class="text-dark me-3 fs-4">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="text-dark me-3 fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="text-dark fs-4">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-12 col-md-3 mb-4">
+        <h3>Quick Links</h3>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Shop</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-12 col-md-3 mb-4">
+        <h3>Contact Us</h3>
+        <p><i class="bi bi-envelope-fill me-2"></i> info@greenbloom.com</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 300 1234567</p>
+        <p><i class="bi bi-geo-alt-fill me-2"></i> Karachi, Pakistan</p>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-12 col-md-3 mb-4">
+        <h3>Newsletter</h3>
+        <p>Subscribe to our newsletter for the latest updates and offers.</p>
+        <form>
+          <input type="email" placeholder="Enter your email" class="form-control mb-2" />
+          <button type="submit" class="btn btn-success w-100">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer Bottom -->
+<div class="footer-bottom bg-light text-dark py-3 mt-1">
+  <div class="container-fluid d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <p class="mb-2 mb-md-0">© 2025 Green Bloom Grocery. All rights reserved.</p>
+    <div class="footer-links d-flex flex-wrap">
+      <a href="#" class="text-dark text-decoration-none me-3">Privacy Policy</a>
+      <a href="#" class="text-dark text-decoration-none me-3">Terms of Service</a>
+      <a href="#" class="text-dark text-decoration-none">Shipping Policy</a>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="./js/script.js"></script>
+<!-- jQuery (Required for Slick Carousel) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Slick Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Bootstrap JS (Latest Stable Version) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76A2z02t52x2W0X3tYpAo7PZrFsaSaWZp+GtnEEni3aS2z5fGkzNf5DX9+N3N5M"
+    crossorigin="anonymous"></script>
+
+<!-- Custom Script -->
+
+
+
+</body>
+</html>
